@@ -64,6 +64,8 @@ function buildToken(user) {
     subject: user.user_id,
     role_name: user.role_name,
     username: user.username,
+    exp: Math.floor(Date.now() / 1000) + 60 * 60 * 24,
+    iat: Math.floor(Date.now() / 1000),
   };
   const options = {
     expiresIn: "1d",
