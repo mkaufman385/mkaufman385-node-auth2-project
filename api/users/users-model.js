@@ -7,9 +7,9 @@ function find() {
 
     [
       {
-        "user_id": 1,
-        "username": "bob",
-        "role_name": "admin"
+            "user_id": 1,
+            "username": "bob",
+            "role_name": "admin"
       },
       {
         "user_id": 2,
